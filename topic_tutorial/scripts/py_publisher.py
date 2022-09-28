@@ -12,7 +12,7 @@ def talker():
     msg =String()
     msg.data="Bye"
 
-    while not rospy.is_shutdown():
+    while not rospy.is_shutdown():#켜져있는동안무한반복
         pub.publish(msg)
         loop_rate.sleep()
 
