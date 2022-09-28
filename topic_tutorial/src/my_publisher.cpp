@@ -8,7 +8,7 @@ int main(int argc,char** argv)
     //퍼블리셔선언
     //패키지 (std_msgs)의 메시지파일(string)을 이용한 퍼블리셔(pub)를 만든다.
     //토픽은(my_topic)이며,퍼블리셔큐(queue)사이즈는(100)이다.
-    ros::Publisher pub =nh.advertise<std_msgs::String>("my_topic",100);
+    ros::Publisher pub =nh.advertise<std_msgs::String>("my_topic",100);//nh.advertise는퍼블리셔만드는함수이다
 
     ros::Rate loop_rate(10);//루프주기를 10hz로 설정한다.
 
