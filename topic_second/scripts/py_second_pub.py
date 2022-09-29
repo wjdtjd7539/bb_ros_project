@@ -7,7 +7,7 @@ from std_msgs.msg import Int32
 
 def my_counter():
     rospy.init_node("py_second_pub")
-    pub= rospy.Publisher("my_count", Int32,queue_size=100)
+    pub= rospy.Publisher("my_count", Int32,que_size=100)
     
     loop_rate=rospy.Rate(20)
 
