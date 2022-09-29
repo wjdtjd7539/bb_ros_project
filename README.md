@@ -33,3 +33,12 @@ publisher,subscriber py 노드생성
     과제1
     
 ####
+
+2022년 9월29일
+[msg_tutorial](./msg_tutorial)
+    msg_tutorial 패키지 생성
+    msg 디렉토리에 Mymsg.msg 생성
+    msg publisher,msg subscriber,py_msg_pub.py,py_msg_sub.py 노드생성
+    빌드
+    실행
+    
