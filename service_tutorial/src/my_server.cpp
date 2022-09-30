@@ -21,8 +21,8 @@ int main(int argc,char** argv)
 
     //서비스 서버(my_server)를 선언한다.
     //서비스 이름은 (add_two_ints)이고 , 요청이 왔을때(add)를 실행한다.
-    //(service_tutorial)패키지의 (AddTwoInts)서비스 파일을 이용한다.
-    ros::ServiceServer my_server=nh.advertiseService("add_two_ints",add);
+    //(service_tutorial)패키지의 (AddTwoInts)서비스 파일을 이용한다.two_ints
+    ros::ServiceServer my_server=nh.advertiseService("add_",add);
 
     ROS_INFO("Service Server Ready.");
 
