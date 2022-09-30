@@ -46,3 +46,20 @@ publisher,subscriber py 노드생성
 -service_tutorial생성
 -py_client.py,py_server.py생성
 -my_client.cpp,my_server.cpp생성
+####
+
+2022년 9월30일
+[과제 2 yh_star](./yh_star)
+for문활용해서 별찍기
+    yh_star 패키지 생성
+    yh_star_pub,yh_star_sub,yh_star_pub.py,
+    yh_star_sub.py 노드생성
+    빌드
+    실행
+
+[과제3 yh_service](./yh_service)
+    yh_service 패키지 생성
+    yh_server,yh_client,yh_server.py,yh_client.py
+    노드생성
+    빌드
+    실행
