@@ -63,3 +63,28 @@ for문활용해서 별찍기
     노드생성
     빌드
     실행
+
+## 2022년10월4일
+파라미터서버 로스마스터에서실행되고 변수들을담고있는서버이다
+ros::param() ros::getparam(),rospy.set_param(),rospy.get_param()등의 함수로사용
+cmmand line에서 rosparam으로 사용가능
+rosparam list
+파라미터서버의모든파라미터를출력
+## 2022년 10월5일
+### [과제6 yh_check](./yh_check)
+    [과제6](./yh_check/과제6.pdf)
+    yh_check 패키지 생성
+    yh_check_distance, yh_check_camera,yh_check_sub,
+    yh_check_distance.py,yh_check_camera.py,yh_check_sub.py노드생성
+        빌드
+        실행
+        python클래스로작성
+
+### [과제7 yh_connect](./yh_connect)
+-[과제7](./yh_conncect/과제7.pdf)
+    yh_connect 패키지 생성
+    yh_connect_pub,yh_connect_sub,yh_connect_sub_pub,
+    yh_connect_pub.py,yh_connect_sub.py,yh_connect_sub_pub.py노드생성
+        빌드
+        실행
+        python클래스로작성

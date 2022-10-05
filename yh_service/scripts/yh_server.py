@@ -1,5 +1,5 @@
 #!/usr//bin/python3
-#-*- codint:utf-8 -*-
+#-*- coding:utf-8 -*-
 import rospy
 from yh_service.srv import YhSrv,YhSrvResponse
 

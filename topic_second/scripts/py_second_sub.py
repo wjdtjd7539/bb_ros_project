@@ -1,11 +1,11 @@
 #!/usr/bin/python
 #-*- coding:utf-8-*-
 
-import rospy
-from std_msgs.msg import Int32
+import rospy#Ros헤더파일
+from std_msgs.msg import Int32#int(나머지) a(msg)와 같다
 
 
-def msgCallback(msg):
+def msgCallback(msg):  
     rospy.loginfo("msg: %d ,msg.data")
 
 def my_listener():
