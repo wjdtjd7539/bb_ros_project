@@ -1,14 +1,14 @@
 # bb_ros_project
-My first ros study
+    My first ros study
 
 
 ## 2022-09-27 start
-##dfa
+    ##dfa
 
 ## 2022-09-27 start
-tutorial pakage에 파이썬스크립트추가
-publisher,subscriber py 노드생성
-빌드실행
+    tutorial pakage에 파이썬스크립트추가
+    publisher,subscriber py 노드생성
+    빌드실행
 '''bash
     rosrun<패키지이름><노드이름>
 
@@ -43,9 +43,9 @@ publisher,subscriber py 노드생성
     실행
 
 [service_tutorial](./service_tutorial)
--service_tutorial생성
--py_client.py,py_server.py생성
--my_client.cpp,my_server.cpp생성
+    -service_tutorial생성
+    -py_client.py,py_server.py생성
+    -my_client.cpp,my_server.cpp생성
 ####
 
 2022년 9월30일
@@ -65,11 +65,11 @@ for문활용해서 별찍기
     실행
 
 ## 2022년10월4일
-파라미터서버 로스마스터에서실행되고 변수들을담고있는서버이다
-ros::param() ros::getparam(),rospy.set_param(),rospy.get_param()등의 함수로사용
-cmmand line에서 rosparam으로 사용가능
-rosparam list
-파라미터서버의모든파라미터를출력
+    파라미터서버 로스마스터에서실행되고 변수들을담고있는서버이다
+    ros::param() ros::getparam(),rospy.set_param(),rospy.get_param()등의 함수로사용
+    cmmand line에서 rosparam으로 사용가능
+    rosparam list
+    파라미터서버의모든파라미터를출력
 ## 2022년 10월5일
 ### [과제6 yh_check](./yh_check)
     [과제6](./yh_check/과제6.pdf)
@@ -91,11 +91,11 @@ rosparam list
 
 ### 2022년 10월 6일
 ### [yh_turtle](./yh_turtle)
--yh_turtle패키지생성
--turtle_keyboard,clear,patrol.cpp 
--turtle_clear,keyboard_claear,keboard.py노드생성
-### [teleop_twist_keyboard 패키지]
-키보드입렵을받아/cmd vel 토픽의 geometry_msgs/Twist메시지로 publish 하는 노드
+    -yh_turtle패키지생성
+    -turtle_keyboard,clear,patrol.cpp 
+    -turtle_clear,keyboard_claear,keboard.py노드생성
+### [teleop_twist_keyboard 패키지]  
+    키보드입렵을받아/cmd vel 토픽의 geometry_msgs/Twist메시지로 publish 하는 노드
 
 $sudo apt install ros-melodic-teleop-twist-keyboard
 실행
@@ -110,6 +110,6 @@ $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 $ roslaunch<패키지이름><런치파일이름>
 
-launch 파일은<launch></launch>태그 사이에 내용을 입력한다.
-node 태그는 패키지이름,노드타입, 노드이름을 입력한다.
-param태그는 파라미터 이름,값,타입을 입력한다.
+    launch 파일은<launch></launch>태그 사이에 내용을 입력한다.
+    node 태그는 패키지이름,노드타입, 노드이름을 입력한다.
+    param태그는 파라미터 이름,값,타입을 입력한다.
