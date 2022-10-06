@@ -10,6 +10,8 @@ class ConnectSubPub:
         self.sub = rospy.Subscriber("yh_connect_int",Int32,self.msgCallback)
         self.pub=  rospy.Publisher("yh_connect_float",Float32)
         self.float_msg=Float32()
+    #rospy.Publisher(topic_name, msg_class, queue_size)
+    #출판자혹은받는자를정의할때쓰는 형태이다
 
     def msgCallback(self,msg):
         if (msg.data %5 ==0):

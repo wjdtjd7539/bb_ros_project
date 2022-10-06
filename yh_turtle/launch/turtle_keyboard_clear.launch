@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtlesim" />
+  
+
+
+    <!--네임은자유롭게 pkg type은규격에맞게-->
+    <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard" />
+    <node pkg="yh_turtle" type="turtle_keyboard_clear.py" name="turtrle_keyboard_clear"/>
+    <param name="turtlesim/background_r" value="150" type="int"/>
+    <param name="turtlesim/background_g" value="100" type="int"/>
+    <param name="turtlesim/background_b" value="55" type="int"/>
+    
+</launch>

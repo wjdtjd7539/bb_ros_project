@@ -6,7 +6,9 @@ from std_msgs.msg import Int64
 
 
 def msgCallback(msg):
-    rospy.loginfo("msg: %d" ,msg.data)
+    rospy.loginfo("msg: %d" ,msg.data)#loginfo이는세가지를실행한다
+    #첫째로화면에출력하고둘째로노드의로그파일에기록하고
+    #셋째로rosout에기록한다 rosout기록된내용으로 디버깅이유용하다 
 
 def my_listener():
     rospy.init_node("py_second_sub")
