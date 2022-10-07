@@ -12,8 +12,8 @@ int main(int argc,char** argv)
     ros::init(argc,argv,"second_sub");//노드이름초기화
     ros::NodeHandle nh;//노드핸들선언
     //서브스크라이버선언
-    //패키지(std_msgs)의메시지(STring)을이용한 서브스크라버(sub)를선언한다.
-    //토픽은(my_count)이며 서브스크라이버큐(queue)사이즈를 100으로설정한다.
+    //패키지(topic_third)의메시지(int64)을이용한 서브스크라버(sub)를선언한다.
+    //토픽은(second_sub)이며 서브스크라이버큐(queue)사이즈를 100으로설정한다.
     //콜벡함수는 (msgCallback)이다ㅣ
 
     ros::Subscriber sub=nh.subscribe("mymy_count",100,msgCallback);

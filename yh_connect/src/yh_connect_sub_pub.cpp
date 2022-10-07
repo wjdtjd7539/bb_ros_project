@@ -22,6 +22,8 @@ int main(int argc,char** argv)
     ros::NodeHandle nh;
 
     ros::Subscriber sub=nh.subscribe("yh_connect_int",10,msgCallback);
+    
+    //콜벡함수호출을위한함수,메시지가수신되기를 대기
     pub=nh.advertise<std_msgs::Float32>("yh_connect_float",10,msgCallback);
 
     ros::spin();
