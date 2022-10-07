@@ -20,7 +20,7 @@ int main(int argc,char** argv)
     ros::ServiceClient calculate_client=nh.serviceClient<param_tutorial::Calculate>("calculate");
 
     param_tutorial::Calculate srv;
-    srv.request.a= atoi(argv[1]);
+    srv.request.a= atoi(argv[1]);//문자스트링을정수로전환
     srv.request.b= atoi(argv[2]);
 
     if(calculate_client.call(srv))
